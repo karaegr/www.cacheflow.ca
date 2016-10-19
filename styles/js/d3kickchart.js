@@ -33,7 +33,7 @@ console.log(layers);
         .domain([0, yStackMax])
         .range([height, 0]);
 
-    var color = d3.scale.ordinal()
+    var color = d3.scale.ordinal() 
         .domain(headers)
         .range(["#98ABC5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c"]);
       
